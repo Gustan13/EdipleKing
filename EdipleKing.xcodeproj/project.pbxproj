@@ -14,6 +14,12 @@
 		521A612D2A6EB3E700C80DC3 /* EdipleKingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A612C2A6EB3E700C80DC3 /* EdipleKingTests.swift */; };
 		521A61372A6EB3E700C80DC3 /* EdipleKingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61362A6EB3E700C80DC3 /* EdipleKingUITests.swift */; };
 		521A61392A6EB3E700C80DC3 /* EdipleKingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61382A6EB3E700C80DC3 /* EdipleKingUITestsLaunchTests.swift */; };
+		521A61502A70709F00C80DC3 /* TestDialogueScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A614F2A70709F00C80DC3 /* TestDialogueScene.swift */; };
+		521A61522A70714100C80DC3 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61512A70714100C80DC3 /* PageModel.swift */; };
+		521A61552A7075D400C80DC3 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61542A7075D400C80DC3 /* Intro.swift */; };
+		521A61572A70CB2500C80DC3 /* NewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A61562A70CB2500C80DC3 /* NewTest.swift */; };
+		52EEBE622A71410300BCBAFC /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEBE612A71410300BCBAFC /* SoundsBootcamp.swift */; };
+		52EEBE692A71423C00BCBAFC /* knock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52EEBE682A71423C00BCBAFC /* knock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		521A61322A6EB3E700C80DC3 /* EdipleKingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdipleKingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521A61362A6EB3E700C80DC3 /* EdipleKingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdipleKingUITests.swift; sourceTree = "<group>"; };
 		521A61382A6EB3E700C80DC3 /* EdipleKingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdipleKingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		521A614F2A70709F00C80DC3 /* TestDialogueScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDialogueScene.swift; sourceTree = "<group>"; };
+		521A61512A70714100C80DC3 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		521A61542A7075D400C80DC3 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		521A61562A70CB2500C80DC3 /* NewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTest.swift; sourceTree = "<group>"; };
+		52EEBE612A71410300BCBAFC /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		52EEBE682A71423C00BCBAFC /* knock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knock.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,15 @@
 		521A611A2A6EB3E600C80DC3 /* EdipleKing */ = {
 			isa = PBXGroup;
 			children = (
+				52EEBE632A7141DB00BCBAFC /* Sounds */,
+				521A61532A7075BB00C80DC3 /* Scenes */,
 				521A611B2A6EB3E600C80DC3 /* EdipleKingApp.swift */,
 				521A611D2A6EB3E600C80DC3 /* ContentView.swift */,
 				521A611F2A6EB3E700C80DC3 /* Assets.xcassets */,
 				521A61212A6EB3E700C80DC3 /* Preview Content */,
+				521A614F2A70709F00C80DC3 /* TestDialogueScene.swift */,
+				521A61512A70714100C80DC3 /* PageModel.swift */,
+				52EEBE612A71410300BCBAFC /* SoundsBootcamp.swift */,
 			);
 			path = EdipleKing;
 			sourceTree = "<group>";
@@ -125,6 +142,23 @@
 				521A61382A6EB3E700C80DC3 /* EdipleKingUITestsLaunchTests.swift */,
 			);
 			path = EdipleKingUITests;
+			sourceTree = "<group>";
+		};
+		521A61532A7075BB00C80DC3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				521A61542A7075D400C80DC3 /* Intro.swift */,
+				521A61562A70CB2500C80DC3 /* NewTest.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		52EEBE632A7141DB00BCBAFC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				52EEBE682A71423C00BCBAFC /* knock.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				521A61232A6EB3E700C80DC3 /* Preview Assets.xcassets in Resources */,
+				52EEBE692A71423C00BCBAFC /* knock.mp3 in Resources */,
 				521A61202A6EB3E700C80DC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521A61552A7075D400C80DC3 /* Intro.swift in Sources */,
+				521A61522A70714100C80DC3 /* PageModel.swift in Sources */,
+				521A61572A70CB2500C80DC3 /* NewTest.swift in Sources */,
+				52EEBE622A71410300BCBAFC /* SoundsBootcamp.swift in Sources */,
 				521A611E2A6EB3E600C80DC3 /* ContentView.swift in Sources */,
+				521A61502A70709F00C80DC3 /* TestDialogueScene.swift in Sources */,
 				521A611C2A6EB3E600C80DC3 /* EdipleKingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
